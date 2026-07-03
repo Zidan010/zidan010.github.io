@@ -3,6 +3,7 @@ name: "Sadir Ahmed Zidan"
 description: "PhD Applicant | Machine Learning Engineer | LLM Agentic Systems & Computer Vision"
 url: "https://zidan010.github.io"
 repository: "zidan010/zidan010.github.io"
+avatar:"Picture mine.jpg"
 
 author:
   name: "Sadir Ahmed Zidan"
@@ -14,3 +15,4 @@ author:
   orcid: "https://orcid.org/0009-0001-3898-9614"
   linkedin: "sadir-ahmed-zidan"
   github: "zidan010"
+
