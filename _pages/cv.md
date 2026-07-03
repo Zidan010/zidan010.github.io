@@ -9,56 +9,38 @@ redirect_from:
 
 {% include base_path %}
 
+[**Download my CV (PDF)**](/files/CV_Zidan.pdf)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in Computer Science & Engineering, American International University Bangladesh (AIUB), 2020–2024, CGPA 3.77/4.00
+  * Thesis: "A Study on the Use of Machine Learning Algorithms for Predicting Mental Health Conditions" (completed, unpublished)
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Jan 2024 – Present: Machine Learning Engineer, Nasir Syntax Solution Limited
+  * Designed and shipped production RAG and agentic LLM systems, reducing retrieval latency by 40%
+  * Fine-tuned and quantized LLMs with LoRA/QLoRA, achieving 60% reduction in memory footprint for edge deployment
+* Apr 2025 – Nov 2025: AI Developer (Part-time, Remote), GradMate.ai
+  * Built agentic RAG systems and multi-step AI workflows using LangChain and Groq
+* May 2025 – Feb 2026: AI Engineer (Contractual, Remote), Ambitionix
+  * Fine-tuned LLMs for domain-specific tasks and deployed agents and APIs to production
+* Oct 2023 – Dec 2023: Machine Learning Intern, Nasir Syntax Solution Limited
+  * Investigated personalized recommendation systems, chatbots, and text generation using LLMs and computer vision
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming: Python, R
+* Frameworks: PyTorch, TensorFlow, Keras, LangChain, Groq, FastAPI, FAISS, Hugging Face, ONNX
+* Tools: Docker, MLflow, Kubernetes, GitHub, LoRA/QLoRA
+* Databases: SQL, MongoDB
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Research collaboration with AIUB faculty on COVID-19 vaccine adverse event modeling (VAERS paper, under review)
